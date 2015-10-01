@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		734FBE431BBD5E4000313AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FBE421BBD5E4000313AD9 /* AppDelegate.swift */; };
+		734FBE451BBD5E4000313AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FBE441BBD5E4000313AD9 /* ViewController.swift */; };
+		734FBE481BBD5E4000313AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734FBE461BBD5E4000313AD9 /* Main.storyboard */; };
+		734FBE4A1BBD5E4000313AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734FBE491BBD5E4000313AD9 /* Assets.xcassets */; };
+		734FBE4D1BBD5E4100313AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734FBE4B1BBD5E4100313AD9 /* LaunchScreen.storyboard */; };
+		734FBE581BBD5E4100313AD9 /* metal_watersimulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FBE571BBD5E4100313AD9 /* metal_watersimulationTests.swift */; };
+		734FBE631BBD5E4100313AD9 /* metal_watersimulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FBE621BBD5E4100313AD9 /* metal_watersimulationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		734FBE541BBD5E4100313AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734FBE371BBD5E4000313AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734FBE3E1BBD5E4000313AD9;
+			remoteInfo = "metal-watersimulation";
+		};
+		734FBE5F1BBD5E4100313AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734FBE371BBD5E4000313AD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734FBE3E1BBD5E4000313AD9;
+			remoteInfo = "metal-watersimulation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		734FBE3F1BBD5E4000313AD9 /* metal-watersimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "metal-watersimulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734FBE421BBD5E4000313AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		734FBE441BBD5E4000313AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		734FBE471BBD5E4000313AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		734FBE491BBD5E4000313AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		734FBE4C1BBD5E4100313AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		734FBE4E1BBD5E4100313AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734FBE531BBD5E4100313AD9 /* metal-watersimulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "metal-watersimulationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734FBE571BBD5E4100313AD9 /* metal_watersimulationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metal_watersimulationTests.swift; sourceTree = "<group>"; };
+		734FBE591BBD5E4100313AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734FBE5E1BBD5E4100313AD9 /* metal-watersimulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "metal-watersimulationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734FBE621BBD5E4100313AD9 /* metal_watersimulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metal_watersimulationUITests.swift; sourceTree = "<group>"; };
+		734FBE641BBD5E4100313AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		734FBE3C1BBD5E4000313AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FBE501BBD5E4100313AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FBE5B1BBD5E4100313AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		734FBE361BBD5E4000313AD9 = {
+			isa = PBXGroup;
+			children = (
+				734FBE411BBD5E4000313AD9 /* metal-watersimulation */,
+				734FBE561BBD5E4100313AD9 /* metal-watersimulationTests */,
+				734FBE611BBD5E4100313AD9 /* metal-watersimulationUITests */,
+				734FBE401BBD5E4000313AD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		734FBE401BBD5E4000313AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				734FBE3F1BBD5E4000313AD9 /* metal-watersimulation.app */,
+				734FBE531BBD5E4100313AD9 /* metal-watersimulationTests.xctest */,
+				734FBE5E1BBD5E4100313AD9 /* metal-watersimulationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		734FBE411BBD5E4000313AD9 /* metal-watersimulation */ = {
+			isa = PBXGroup;
+			children = (
+				734FBE421BBD5E4000313AD9 /* AppDelegate.swift */,
+				734FBE441BBD5E4000313AD9 /* ViewController.swift */,
+				734FBE461BBD5E4000313AD9 /* Main.storyboard */,
+				734FBE491BBD5E4000313AD9 /* Assets.xcassets */,
+				734FBE4B1BBD5E4100313AD9 /* LaunchScreen.storyboard */,
+				734FBE4E1BBD5E4100313AD9 /* Info.plist */,
+			);
+			path = "metal-watersimulation";
+			sourceTree = "<group>";
+		};
+		734FBE561BBD5E4100313AD9 /* metal-watersimulationTests */ = {
+			isa = PBXGroup;
+			children = (
+				734FBE571BBD5E4100313AD9 /* metal_watersimulationTests.swift */,
+				734FBE591BBD5E4100313AD9 /* Info.plist */,
+			);
+			path = "metal-watersimulationTests";
+			sourceTree = "<group>";
+		};
+		734FBE611BBD5E4100313AD9 /* metal-watersimulationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				734FBE621BBD5E4100313AD9 /* metal_watersimulationUITests.swift */,
+				734FBE641BBD5E4100313AD9 /* Info.plist */,
+			);
+			path = "metal-watersimulationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		734FBE3E1BBD5E4000313AD9 /* metal-watersimulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734FBE671BBD5E4100313AD9 /* Build configuration list for PBXNativeTarget "metal-watersimulation" */;
+			buildPhases = (
+				734FBE3B1BBD5E4000313AD9 /* Sources */,
+				734FBE3C1BBD5E4000313AD9 /* Frameworks */,
+				734FBE3D1BBD5E4000313AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "metal-watersimulation";
+			productName = "metal-watersimulation";
+			productReference = 734FBE3F1BBD5E4000313AD9 /* metal-watersimulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		734FBE521BBD5E4100313AD9 /* metal-watersimulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734FBE6A1BBD5E4100313AD9 /* Build configuration list for PBXNativeTarget "metal-watersimulationTests" */;
+			buildPhases = (
+				734FBE4F1BBD5E4100313AD9 /* Sources */,
+				734FBE501BBD5E4100313AD9 /* Frameworks */,
+				734FBE511BBD5E4100313AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734FBE551BBD5E4100313AD9 /* PBXTargetDependency */,
+			);
+			name = "metal-watersimulationTests";
+			productName = "metal-watersimulationTests";
+			productReference = 734FBE531BBD5E4100313AD9 /* metal-watersimulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		734FBE5D1BBD5E4100313AD9 /* metal-watersimulationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734FBE6D1BBD5E4100313AD9 /* Build configuration list for PBXNativeTarget "metal-watersimulationUITests" */;
+			buildPhases = (
+				734FBE5A1BBD5E4100313AD9 /* Sources */,
+				734FBE5B1BBD5E4100313AD9 /* Frameworks */,
+				734FBE5C1BBD5E4100313AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734FBE601BBD5E4100313AD9 /* PBXTargetDependency */,
+			);
+			name = "metal-watersimulationUITests";
+			productName = "metal-watersimulationUITests";
+			productReference = 734FBE5E1BBD5E4100313AD9 /* metal-watersimulationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		734FBE371BBD5E4000313AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Lachlan Hurst";
+				TargetAttributes = {
+					734FBE3E1BBD5E4000313AD9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					734FBE521BBD5E4100313AD9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 734FBE3E1BBD5E4000313AD9;
+					};
+					734FBE5D1BBD5E4100313AD9 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 734FBE3E1BBD5E4000313AD9;
+					};
+				};
+			};
+			buildConfigurationList = 734FBE3A1BBD5E4000313AD9 /* Build configuration list for PBXProject "metal-watersimulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 734FBE361BBD5E4000313AD9;
+			productRefGroup = 734FBE401BBD5E4000313AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				734FBE3E1BBD5E4000313AD9 /* metal-watersimulation */,
+				734FBE521BBD5E4100313AD9 /* metal-watersimulationTests */,
+				734FBE5D1BBD5E4100313AD9 /* metal-watersimulationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		734FBE3D1BBD5E4000313AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734FBE4D1BBD5E4100313AD9 /* LaunchScreen.storyboard in Resources */,
+				734FBE4A1BBD5E4000313AD9 /* Assets.xcassets in Resources */,
+				734FBE481BBD5E4000313AD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FBE511BBD5E4100313AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FBE5C1BBD5E4100313AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		734FBE3B1BBD5E4000313AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734FBE451BBD5E4000313AD9 /* ViewController.swift in Sources */,
+				734FBE431BBD5E4000313AD9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FBE4F1BBD5E4100313AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734FBE581BBD5E4100313AD9 /* metal_watersimulationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FBE5A1BBD5E4100313AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734FBE631BBD5E4100313AD9 /* metal_watersimulationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		734FBE551BBD5E4100313AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734FBE3E1BBD5E4000313AD9 /* metal-watersimulation */;
+			targetProxy = 734FBE541BBD5E4100313AD9 /* PBXContainerItemProxy */;
+		};
+		734FBE601BBD5E4100313AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734FBE3E1BBD5E4000313AD9 /* metal-watersimulation */;
+			targetProxy = 734FBE5F1BBD5E4100313AD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		734FBE461BBD5E4000313AD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734FBE471BBD5E4000313AD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		734FBE4B1BBD5E4100313AD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734FBE4C1BBD5E4100313AD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		734FBE651BBD5E4100313AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		734FBE661BBD5E4100313AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		734FBE681BBD5E4100313AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "metal-watersimulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lachlanhurst.metal-watersimulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		734FBE691BBD5E4100313AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "metal-watersimulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lachlanhurst.metal-watersimulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		734FBE6B1BBD5E4100313AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "metal-watersimulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lachlanhurst.metal-watersimulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metal-watersimulation.app/metal-watersimulation";
+			};
+			name = Debug;
+		};
+		734FBE6C1BBD5E4100313AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "metal-watersimulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lachlanhurst.metal-watersimulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metal-watersimulation.app/metal-watersimulation";
+			};
+			name = Release;
+		};
+		734FBE6E1BBD5E4100313AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "metal-watersimulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lachlanhurst.metal-watersimulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "metal-watersimulation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		734FBE6F1BBD5E4100313AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "metal-watersimulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lachlanhurst.metal-watersimulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "metal-watersimulation";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		734FBE3A1BBD5E4000313AD9 /* Build configuration list for PBXProject "metal-watersimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734FBE651BBD5E4100313AD9 /* Debug */,
+				734FBE661BBD5E4100313AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734FBE671BBD5E4100313AD9 /* Build configuration list for PBXNativeTarget "metal-watersimulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734FBE681BBD5E4100313AD9 /* Debug */,
+				734FBE691BBD5E4100313AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		734FBE6A1BBD5E4100313AD9 /* Build configuration list for PBXNativeTarget "metal-watersimulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734FBE6B1BBD5E4100313AD9 /* Debug */,
+				734FBE6C1BBD5E4100313AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		734FBE6D1BBD5E4100313AD9 /* Build configuration list for PBXNativeTarget "metal-watersimulationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734FBE6E1BBD5E4100313AD9 /* Debug */,
+				734FBE6F1BBD5E4100313AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 734FBE371BBD5E4000313AD9 /* Project object */;
+}
