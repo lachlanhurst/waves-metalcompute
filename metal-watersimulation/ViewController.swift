@@ -140,6 +140,8 @@ class ViewController: UIViewController, SCNSceneRendererDelegate {
     }
     
     func doSplash(x:Int, y:Int) {
+        //x,y in texture pixel coordinates
+        
         let bytesPerRow = 4 * 2
         let bitmapInfo = CGBitmapInfo.ByteOrder32Big.rawValue | CGImageAlphaInfo.PremultipliedLast.rawValue
         var rawData = [UInt8](count: 2 * 2 * 4, repeatedValue: 1)
