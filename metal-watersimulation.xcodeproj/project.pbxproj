@@ -14,6 +14,7 @@
 		734FBE4D1BBD5E4100313AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734FBE4B1BBD5E4100313AD9 /* LaunchScreen.storyboard */; };
 		734FBE581BBD5E4100313AD9 /* metal_watersimulationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FBE571BBD5E4100313AD9 /* metal_watersimulationTests.swift */; };
 		734FBE631BBD5E4100313AD9 /* metal_watersimulationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FBE621BBD5E4100313AD9 /* metal_watersimulationUITests.swift */; };
+		734FBE711BBD613A00313AD9 /* waveComputeShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 734FBE701BBD613A00313AD9 /* waveComputeShader.metal */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		734FBE5E1BBD5E4100313AD9 /* metal-watersimulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "metal-watersimulationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734FBE621BBD5E4100313AD9 /* metal_watersimulationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metal_watersimulationUITests.swift; sourceTree = "<group>"; };
 		734FBE641BBD5E4100313AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734FBE701BBD613A00313AD9 /* waveComputeShader.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = waveComputeShader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		734FBE411BBD5E4000313AD9 /* metal-watersimulation */ = {
 			isa = PBXGroup;
 			children = (
+				734FBE701BBD613A00313AD9 /* waveComputeShader.metal */,
 				734FBE421BBD5E4000313AD9 /* AppDelegate.swift */,
 				734FBE441BBD5E4000313AD9 /* ViewController.swift */,
 				734FBE461BBD5E4000313AD9 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			files = (
 				734FBE451BBD5E4000313AD9 /* ViewController.swift in Sources */,
 				734FBE431BBD5E4000313AD9 /* AppDelegate.swift in Sources */,
+				734FBE711BBD613A00313AD9 /* waveComputeShader.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
